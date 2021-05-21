@@ -34,3 +34,6 @@ select FirstName from AddresssbookDatabase where State ='Bilaspur'
 
 SELECT COUNT(FirstName)
 FROM AddresssbookDatabase;
+
+SELECT * FROM AddresssbookDatabase
+ORDER BY FirstName;

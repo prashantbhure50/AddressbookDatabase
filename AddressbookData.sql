@@ -13,8 +13,6 @@ Zip varchar(50)not null,
 Email varchar(100)not null,
 )
 
-select * from AddresssbookDatabase
-
 insert into AddresssbookDatabase values
 ('Alok', 'Bhure', 'Tifra',' Bilaspur',' Chhattisgarh', '7000593588', '495223', 'Aloktbhure50@gmail.com'),
 ('Prashant', 'Bhure', 'Trifa', 'Bilaspur', 'Chhattisgarh', '8965940302', '623456', 'prashantbhure@gmail.com'),
@@ -24,7 +22,14 @@ insert into AddresssbookDatabase values
 
 
 UPDATE AddresssbookDatabase
-SET  LastName= 'Sharma', City= 'Raipur'
-WHERE FirstName = 'Alok';
+SET  State= 'Maharastra', City= 'Mumbai'
+WHERE FirstName = 'Manish';
 
 DELETE FROM AddresssbookDatabase WHERE FirstName='Shahshank';
+
+select * from AddresssbookDatabase
+
+select FirstName from AddresssbookDatabase where State ='Bilaspur'
+
+
+

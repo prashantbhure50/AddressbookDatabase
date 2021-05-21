@@ -27,7 +27,7 @@ WHERE FirstName = 'Manish';
 
 DELETE FROM AddresssbookDatabase WHERE FirstName='Shahshank';
 
-select * from AddresssbookDatabase
+
 
 select FirstName from AddresssbookDatabase where State ='Bilaspur'
 
@@ -37,3 +37,12 @@ FROM AddresssbookDatabase;
 
 SELECT * FROM AddresssbookDatabase
 ORDER BY FirstName;
+
+select * from AddresssbookDatabase
+
+ALTER TABLE AddresssbookDatabase
+ADD Type varchar(100);
+
+UPDATE AddresssbookDatabase
+SET  Type= 'Profession'
+WHERE FirstName = 'Ashish';

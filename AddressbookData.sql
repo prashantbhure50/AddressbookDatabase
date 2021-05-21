@@ -26,3 +26,5 @@ insert into AddresssbookDatabase values
 UPDATE AddresssbookDatabase
 SET  LastName= 'Sharma', City= 'Raipur'
 WHERE FirstName = 'Alok';
+
+DELETE FROM AddresssbookDatabase WHERE FirstName='Shahshank';

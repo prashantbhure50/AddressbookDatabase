@@ -21,3 +21,8 @@ insert into AddresssbookDatabase values
 ('Ashish', 'Gupta', 'BTM', 'Bengaluru', 'Karanataka', '7000545388', '560076', 'AshishGupta@gmail.com'),
 ('Manish', 'Sharma', 'Andheri', 'Mumbai', 'Maharastra', '7456732456','63456', 'Manishsharma@gmail.com'),
 ('Shahshank', 'Gupta', 'Nirakia', 'korba', 'Chhattisgarh', '9874920382', '489223', 'Shashankgupta@gmail.com')
+
+
+UPDATE AddresssbookDatabase
+SET  LastName= 'Sharma', City= 'Raipur'
+WHERE FirstName = 'Alok';

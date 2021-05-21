@@ -46,3 +46,4 @@ ADD Type varchar(100);
 UPDATE AddresssbookDatabase
 SET  Type= 'Profession'
 WHERE FirstName = 'Ashish';
+select FirstName from AddresssbookDatabase where Type ='Family'

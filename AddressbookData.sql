@@ -46,3 +46,10 @@ ADD Type varchar(100);
 UPDATE AddresssbookDatabase
 SET  Type= 'Profession'
 WHERE FirstName = 'Ashish';
+select FirstName from AddresssbookDatabase where Type ='Family'
+select FirstName from AddresssbookDatabase where Type ='Friend'
+
+
+SELECT COUNT(Type)
+FROM AddresssbookDatabase
+WHERE Type='Family';
